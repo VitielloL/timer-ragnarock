@@ -276,7 +276,7 @@
     osc.type = "sine";
     osc.frequency.setValueAtTime(freq, time);
 
-    gain.gain.setValueAtTime(0.2, time);
+    gain.gain.setValueAtTime(0.5, time);
     gain.gain.exponentialRampToValueAtTime(0.001, time + duration);
 
     osc.connect(gain);
@@ -291,9 +291,9 @@
     const now = ctx.currentTime;
 
     // Toca uma sequência sonora chamativa de banquete/sino
-    for (let i = 0; i < 6; i++) {
-      const t = now + i * 0.35;
-      playBeep(t, i % 2 === 0 ? 784 : 523, 0.25); // Notas Sol e Dó
+    for (let i = 0; i < 10; i++) {
+      const t = now + i * 0.45;
+      playBeep(t, i % 2 === 0 ? 784 : 523, 0.4); // Notas Sol e Dó
     }
   }
 
