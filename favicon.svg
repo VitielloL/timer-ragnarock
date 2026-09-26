@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Timer Ragnarök favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1c120c"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f9d57a"/>
+      <stop offset="100%" stop-color="#c98e2e"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#bg)" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M17 46V18h7.5l7.3 12.2L39.2 18H47v28h-7V29l-8.7 14.3h-1.8L24 29v17h-7Z" fill="url(#gold)"/>
+  <path d="M31.5 12h1.5v8.8h-1.5z" fill="#f3e4b3" opacity="0.9"/>
+  <path d="M22 12h20v4H22z" fill="#f3e4b3" opacity="0.7"/>
+</svg>
